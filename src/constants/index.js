@@ -16,13 +16,18 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  fp,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  starbucks,
+  abos,
+  klasshour,
+  btsw,
+  myfaires,
+  news,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +47,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -116,55 +121,70 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Developer",
+    company_name: "MathClinic Int.",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2019 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Html,css,Javascript,Php and Xamarin with other related technologies.",
+      "Managing the web interface and c-panel configurations",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "FountainPay Payment service",
+    icon: fp,
+    iconBg: "#fff",
+    date: "Jan 2022 - Aug 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Web development instructor for Intern",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Fullstack Developer",
+    company_name: "Abos Technologies",
+    icon: abos,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2022 - Dec 2022",
     points: [
+      "Creation of APIs for T-bobo app(An uber-like app)",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Writing and fetching clean GraphQL queries for created APIs",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Klasshour",
+    icon: klasshour,
+    iconBg: "#002",
+    date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining the company learning management system(LMS) software.",
+      "Collaborating with cross-functional teams including designers, product managers,marketers, and other developers to bring about the best for the LMS software.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other CTO.",
+    ],
+  },
+  {
+    title: "Backend Volunteer",
+    company_name: "Yoris Africa",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Mar 2023 - present",
+    points: [
+      "Developing and maintaining microservice architecture for the yoris mobile app",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Configuring the superadmin controllers logic, and communication of microservices viz RabbitMq technology",
+      "Writing unit and Integration tests for controller logics",
+      "Participating in code reviews and providing constructive feedback to other CTO.",
     ],
   },
 ];
@@ -172,35 +192,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Folajimi proved me wrong.",
+    name: "Oyinlade Demola",
+    designation: "CEO",
+    company: "Abos Technology",
+    image:
+      "https://media.licdn.com/dms/image/C4D03AQGUet2n_vq-cQ/profile-displayphoto-shrink_800_800/0/1598174760414?e=1692835200&v=beta&t=62fDbl25cbt8TEUuYDPZ6aUx9lgatGajX-wvEFCEpVg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Folajimi optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Olabode Eto",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Klasshour",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQFP7vr5f3Mkxw/profile-displayphoto-shrink_800_800/0/1678918964236?e=1692835200&v=beta&t=-MQhSGDuf9tI8o8GtmDXeTuY0zUOqB4tPQ45ZZJGVOE",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly pay attention to details like Folajimi does.",
+    name: "Adedapo Tiamiyu",
+    designation: "Chief Designer",
+    company: "fountainpay",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQHOch6etwsVvQ/profile-displayphoto-shrink_200_200/0/1672213586439?e=1692835200&v=beta&t=jDUuasljDlwtU9Ew7no6K4u-0Br9uLu2uR2GA83pqUc",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BTSW",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Business the simple way(BTSW) is websie that gives business tips for upcoming business on how they can build,grow and scale their businesses",
     tags: [
       {
         name: "react",
@@ -214,14 +237,22 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux  ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vimeo",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: btsw,
+    source_code_link: "https://www.businessthesimpleway.com/",
   },
   {
-    name: "Job IT",
+    name: "MyFaires",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "MyFaires is the web version of MyFaires App, which monitor ladies monthly flow and gives them healthy tips and update on their personal hygiene",
     tags: [
       {
         name: "react",
@@ -235,18 +266,26 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "storybook",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: myfaires,
+    source_code_link: "https://myfairies.co.uk/",
   },
   {
-    name: "Trip Guide",
+    name: "CR News",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "CR news is a News and current affairs website, that track real-time user feeds, comments and news update",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
       },
       {
         name: "supabase",
@@ -257,8 +296,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: news,
+    source_code_link: "https://citizenrapporteurs.com/",
   },
 ];
 

@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import fp from "./fp.png"
+import abos from "./abos.jpeg"
+import klasshour from "./klasshour.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +33,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import myfaires from "./myfaires.png"
+import btsw from "./btsw.png"
+import news from "./news.png"
 
 export {
   logo,
@@ -40,6 +47,7 @@ export {
   menu,
   close,
   css,
+  fp,
   docker,
   figma,
   git,
@@ -58,5 +66,10 @@ export {
   tesla,
   carrent,
   jobit,
+  klasshour,
+  abos,
   tripguide,
+  btsw,
+  news,
+  myfaires
 };
