@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import fp from "./fp.png"
 import abos from "./abos.jpeg"
 import klasshour from "./klasshour.png";
+import bc from "./bluecargo.png"
 
 
 import meta from "./company/meta.png";
@@ -71,5 +72,6 @@ export {
   tripguide,
   btsw,
   news,
-  myfaires
+  myfaires,
+  bc
 };

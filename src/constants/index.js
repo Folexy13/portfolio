@@ -28,6 +28,7 @@ import {
   btsw,
   myfaires,
   news,
+  bc,
 } from "../assets";
 
 export const navLinks = [
@@ -275,9 +276,9 @@ const projects = [
     source_code_link: "https://myfairies.co.uk/",
   },
   {
-    name: "CR News",
+    name: "BlueCargo",
     description:
-      "CR news is a News and current affairs website, that track real-time user feeds, comments and news update",
+      "BlueCargo is a logisitcs tracking website, which monitor and give info about a shipment in real-time",
     tags: [
       {
         name: "nextjs",
@@ -296,8 +297,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: news,
-    source_code_link: "https://citizenrapporteurs.com/",
+    image: bc,
+    source_code_link: "https://bluecargoo.vercel.app/",
   },
 ];
 
